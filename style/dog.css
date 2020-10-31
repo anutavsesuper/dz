@@ -1,0 +1,41 @@
+@import "reset.css";
+
+body {
+  margin: 0;
+  position: relative;
+}
+
+canvas {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  display: block;
+}
+
+.dog {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin: 100px;
+  z-index: 1;
+  background: #FFD600;
+}
+
+.dog:hover {
+    background: #FFD600;
+    border-radius: 20px;
+}
+
+.cat {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  margin: 300px;
+  z-index: 1;
+  border-radius: 200px;
+  background: #71B7FF;
+}
+
+.cat:hover {
+    background: #FFD600;
+}
